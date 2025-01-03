@@ -10,15 +10,19 @@
 <body>
 
 <!-- Navigation Bar -->
+<!-- Navigation Bar -->
 <nav class="navbar navbar-dark navbar-expand-lg fixed-top">
-    <div id="layout-menu">
-        <a href="#">Home</a>
-        <a href="#experience">Experience</a>
-        <a href="#awards">Honors</a>
-        <a href="#publications">Publications</a>
-        <a href="https://drive.google.com/file/d/1T1wnsLCBo6riyFKB5ihby1S3HzJLDZbk/view?usp=sharing" target="_blank">CV</a>
+    <div id="layout-menu" style="display: flex; height: 5px; justify-content: center; gap: 30px;">
+        <a href="#" style="font-size: 18px;">Home</a>
+        <a href="#experience" style="font-size: 18px;">Experience</a>
+        <a href="#awards" style="font-size: 18px;">Honors</a>
+        <a href="#publications" style="font-size: 18px;">Publications</a>
+		<a href="#conferences" style="font-size: 18px;">Conferences</a>
+        <a href="https://drive.google.com/file/d/1T1wnsLCBo6riyFKB5ihby1S3HzJLDZbk/view?usp=sharing" target="_blank" style="font-size: 18px;">CV</a>
     </div>
 </nav>
+
+
 
 <!-- Main Content -->
 <div id="layout-content" style="margin-top:25px">
@@ -81,27 +85,38 @@
 	<!-- Honors & Awards -->
 	<br>
 	<div id="awards">
-        <h2>Honors &amp; Awards</h2>
-        <ul>
-            <li>3rd Place, IonQ Quantum Challenging, 2024</li>
-            <li>Academic Excellence Scholarship, 2023</li>
-            <li>Academic Excellence Scholarship, 2022</li>
-            <li>Corporate Excellence Scholarship, Nhat Minh Company Limited, 2022</li>
-            <li>Corporate Excellence Scholarship, Daizo Tec Co., LTD, 2022</li>
-            <li>Academic Excellence Scholarship, 2021</li>
-            <li>Academic Excellence Scholarship, 2020</li>
-        </ul>
-    </div>
+		<h2>Honors & Awards</h2>
+		<ol style="padding-left: 20px;">
+			<li style="margin-bottom: 15px;">
+				<a>3rd Place</a><br>
+				<span style="font-weight: bold;">IonQ Quantum Challenging</span><br>
+				<em style="color: #555;">Seoul, S.Korea</em>, 2024.
+			</li>
+			<li style="margin-bottom: 15px;">
+				<a>Academic Excellence Scholarship</a><br>
+				<span style="font-weight: bold;">Hanoi University of Science and Technology</span><br>
+				<em style="color: #555;">Hanoi, Vietnam</em>, 2023, 2022, 2021, 2020.
+			</li>
+			<li style="margin-bottom: 15px;">
+				<a>Corporate Excellence Scholarship</a><br>
+				<span style="font-weight: bold;">Nhat Minh Company Limited</span><br>
+				<em style="color: #555;">Hanoi, Vietnam</em>, 2022, 2020.<br>
+				<span style="font-weight: bold;">Daizo Tec Co., LTD</span><br>
+				<em style="color: #555;">Hanoi, Vietnam</em>, 2022.
+			</li>
+		</ol>
+	</div>
+	
 
 	<!-- Publications -->
 	<br>
 	<div id="publications">
-		<h2>Selected Publications</h2>
+		<h2>Publications</h2>
 
 		<!-- 2025 Publications -->
 		<div style="margin-bottom: 25px;">
 			<h3 style="font-family: 'Georgia', serif; font-size: 18px; font-weight: bold; color: #2c3e50;">2025</h3>
-			<ul style="list-style-type: none; padding-left: 0;">
+			<ol style="padding-left: 20px;">
 				<li style="margin-bottom: 15px;">
 					<a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad896d/meta" target="_blank">
 						Quantum Circuit Optimization with Deep Reinforcement Learning
@@ -109,16 +124,13 @@
 					<span style="font-weight: bold;">Dang Khoa Tao</span><br>
 					<em style="color: #555;">Quantum Computing</em>, 2025.
 				</li>
-			</ul>
+			</ol>
 		</div>
 
-			<!-- <ul>
-				* indicates equal contribution; <sup>†</sup> indicates corresponding authorship.
-			</ul> -->
 		<!-- 2024 Publications -->
 		<div style="margin-bottom: 25px;">
 			<h3 style="font-family: 'Georgia', serif; font-size: 18px; font-weight: bold; color: #2c3e50;">2024</h3>
-			<ul style="list-style-type: none; padding-left: 0;">
+			<ol style="padding-left: 20px;">
 				<li style="margin-bottom: 15px;">
 					<a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad896d/meta" target="_blank">
 						Liquid Vortex Surface Deformation Probed by Light Reflection
@@ -140,9 +152,10 @@
 					Nguyen, Duc Duong, Vu Yen Nhi Thai, <span style="font-weight: bold;">Dang Khoa Tao</span>, Thi Phuong Anh Nguyen, Xuan Binh Cao, and Cuc Nguyen Thi Kim<br>
 					<em style="color: #555;">Acta Polytechnica Hungarica</em>, 2024.
 				</li>
-			</ul>
+			</ol>
 		</div>
 	</div>
+
 		<!-- <li>
 			<a href="https://ojs.aaai.org/index.php/AAAI/article/view/28135" target="_blank">Liquid vortex surface deformation probed by light reflection.</a><br>
 			Vu, Danh Tien, <b>Dang Khoa Tao</b>,  Nhu Thanh Nguyen, Cuc Thi Kim Nguyen, and Binh Xuan Cao.<br>
@@ -155,9 +168,45 @@
 			<a href="https://arxiv.org/abs/2401.11674" target="_blank">Memory-Efficient Prompt Tuning for Incremental Histopathology Classification</a><br>
 			Yu Zhu, Kang Li, <b>Lequan Yu</b>, Pheng-Ann Heng.<br>
 			<em>AAAI Conference on Artificial Intelligence</em> (<i><b>AAAI</b></i>), 2024.</br> -->
+	
+	<!-- Conferences & Workshops -->
+	<br>
+	<div id="conferences">
+		<h2>Conferences & Workshops</h2>
+
+		<!-- Presentations
+		<div style="margin-bottom: 25px;">
+			<h3 style="font-family: 'Georgia', serif; font-size: 18px; font-weight: bold; color: #2c3e50;">Presentations</h3>
+			<ul style="list-style-type: none; padding-left: 0;">
+				<li style="margin-bottom: 15px;">
+					<a href="https://iopscience.iop.org/article/10.1088/1402-4896/ad896d/meta" target="_blank">
+						Quantum Circuit Optimization with Deep Reinforcement Learning
+					</a><br>
+					<span style="font-weight: bold;">Dang Khoa Tao</span><br>
+					<em style="color: #555;">Quantum Computing</em>, 2025.
+				</li>
+			</ul>
+		</div> -->
+
+		<!-- Posters -->
+		<div style="margin-bottom: 25px;">
+			<h3 style="font-family: 'Georgia', serif; font-size: 18px; font-weight: bold; color: #2c3e50;">Posters</h3>
+			<ol style="padding-left: 20px;">
+				<li style="margin-bottom: 15px;">
+					<a>
+						Determination of liquid property based on dynamical surface reflection
+					</a><br>
+					<span style="font-weight: bold;">Dang Khoa Tao</span>, Danh Tien Vu, and Binh Xuan Cao<br>
+					<em style="color: #555;"> Proceedings of the 8th Academic Conference on Natural Sciences for Young Scientists, Masters and PhD. Students from ASEAN countries (CASEAN‑8) </em>, 2023.
+				</li>
+			</ol>
+		</div>
+	</div>
+
 
 <!-- Footer -->
 <div id="footer">
+	<p style="text-align: center; margin-top: 10px; font-size: 14px; color: #555;">“Be better than yesterday!”</p>
 	<p style="text-align: center;">
 		© 2025 Tao Dang Khoa. <a href="mailto:taodangkhoa.vn@gmail.com" style="text-decoration: none; color: #0073e6;">taodangkhoa.vn@gmail.com</a>.
 	</p>
